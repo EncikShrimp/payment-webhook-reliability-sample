@@ -1,0 +1,17 @@
+{
+  "name": "payment-webhook-reliability-sample",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A sanitized TypeScript example of idempotent, ordered payment webhook processing.",
+  "type": "module",
+  "scripts": {
+    "test": "tsx --test tests/**/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
